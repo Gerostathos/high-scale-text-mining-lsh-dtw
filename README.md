@@ -47,10 +47,7 @@ high-scale-text-mining-lsh-dtw/
 ├── notebooks/
 │   └── high_scale_analytics_experiments.ipynb
 │
-├── data/
-│   └── README.md
-│
-└── reports/
+└── data/
     └── README.md
 ```
 
