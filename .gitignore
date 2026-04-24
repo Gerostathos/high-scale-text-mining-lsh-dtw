@@ -1,0 +1,66 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Data files
+/data/*
+!/data/README.md
+*.zip
+*.rar
+*.7z
+
+# Processed files / models / artifacts
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.h5
+models/
+checkpoints/
+artifacts/
+
+# Generated outputs
+outputs/
+runs/
+logs/
+results/
+predictions.csv
+test_predictions.csv
+knn_predictions.csv
+dtw.csv
+testSet_categories.csv
+
+# Reports generated locally
+reports/*.pdf
+!reports/README.md
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.jpeg
+reports/figures/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
