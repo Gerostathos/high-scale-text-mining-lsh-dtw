@@ -47,11 +47,14 @@ high-scale-text-mining-lsh-dtw/
 ├── notebooks/
 │   └── high_scale_analytics_experiments.ipynb
 │
+├── docs/
+│   └── HIGH SCALE ANALYTICS report.pdf
+│
 └── data/
     └── README.md
 ```
 
-The datasets and generated model/output files are not committed to GitHub. The `data/README.md` file explains where the datasets should be placed locally.
+The datasets and generated model/output files are not committed to GitHub. The `data/README.md` file explains where the datasets should be placed locally. A detailed project report is included under `docs/`.
 
 ---
 
@@ -70,6 +73,8 @@ The four target categories are:
 - `Entertainment`
 - `Health`
 - `Technology`
+
+During exploratory analysis, the dataset was observed to be imbalanced across the four categories. Entertainment was the largest class, while Health was the smallest class. This imbalance was noted during the analysis, although the main experiments focused primarily on preprocessing, model comparison, and nearest-neighbor search rather than explicit class rebalancing.
 
 The DTW task uses a separate time-series dataset containing pairs of sequences.
 
@@ -170,6 +175,18 @@ The SVM performed best because linear margin-based classifiers are well suited t
 ### Dynamic Time Warping
 
 The DTW implementation was used to process 1002 sequence pairs. The reported runtime was approximately 22 minutes on Kaggle CPU.
+
+---
+
+## Detailed Report
+
+A detailed project report is available in:
+
+```text
+docs/HIGH SCALE ANALYTICS report.pdf
+```
+
+The report includes the full explanation of the three assignment exercises, preprocessing choices, hyperparameter tuning, LSH experiments, DTW implementation, runtime observations, and discussion of the results.
 
 ---
 
