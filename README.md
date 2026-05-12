@@ -283,13 +283,4 @@ This repository demonstrates:
 - manual Dynamic Time Warping implementation,
 - large-notebook experimentation and reporting.
 
----
 
-## Future Improvements
-
-- Refactor the notebook into reusable modules under `src/`.
-- Add command-line scripts for classification, LSH evaluation, and DTW computation.
-- Replace Kaggle-style paths with a configuration file.
-- Save final metrics to CSV files automatically.
-- Add small sample datasets for quick reproducible demos.
-- Add figures for preprocessing effects, class distribution, and runtime comparisons.
